@@ -119,7 +119,7 @@ def breadthFirstSearch(problem):
     [2nd Edition: p 73, 3rd Edition: p 82]
     """
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    return generic_search(problem, util.Queue())
 
 
 def uniformCostSearch(problem):
